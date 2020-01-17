@@ -8,6 +8,10 @@ import { FooditemlistComponent } from './fooditemlist/fooditemlist.component';
 import { CartComponent } from './cart/cart.component';
 import { HistoryComponent } from './history/history.component';
 import { AddrestaurantComponent } from './addrestaurant/addrestaurant.component';
+import { ModifyrestaurantComponent } from './modifyrestaurant/modifyrestaurant.component';
+import { ViewordersComponent } from './vieworders/vieworders.component';
+import { ManagecustomersComponent } from './managecustomers/managecustomers.component';
+import { BlockComponent } from './block/block.component';
 
 
 
@@ -22,7 +26,11 @@ const routes: Routes = [];
       {path : "fooditems" , component: FooditemlistComponent },
       {path : "cart" , component: CartComponent },
       {path : "history" , component: HistoryComponent },
-      {path : "addrestaurant" , component: AddrestaurantComponent }      
+      {path : "addrestaurant" , component: AddrestaurantComponent },
+      {path : "modifyrestaurant" , component: ModifyrestaurantComponent },
+      {path : "orders" , component: ViewordersComponent } ,
+      {path : "managecustomers" , component: ManagecustomersComponent } ,
+      {path : "block" , component: BlockComponent } 
       ])],
          exports: [RouterModule]
 })

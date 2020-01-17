@@ -12,6 +12,10 @@ import { FooditemlistComponent } from './fooditemlist/fooditemlist.component';
 import { CartComponent } from './cart/cart.component';
 import { HistoryComponent } from './history/history.component';
 import { AddrestaurantComponent } from './addrestaurant/addrestaurant.component';
+import { ModifyrestaurantComponent } from './modifyrestaurant/modifyrestaurant.component';
+import { ViewordersComponent } from './vieworders/vieworders.component';
+import { ManagecustomersComponent } from './managecustomers/managecustomers.component';
+import { BlockComponent } from './block/block.component';
 
 
 
@@ -25,7 +29,11 @@ import { AddrestaurantComponent } from './addrestaurant/addrestaurant.component'
     FooditemlistComponent,
     CartComponent,
     HistoryComponent,
-    AddrestaurantComponent
+    AddrestaurantComponent,
+    ModifyrestaurantComponent,
+    ViewordersComponent,
+    ManagecustomersComponent,
+    BlockComponent
   ],
   imports: [
     BrowserModule,

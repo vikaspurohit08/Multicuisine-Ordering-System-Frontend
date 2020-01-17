@@ -41,25 +41,36 @@
                 </tr>
             </td>
         </tr>
+
+        <a style="margin-left: 100px;" id="show" data-toggle="collapse" data-target="#addfood" class="btn btn-warning" role="button">Add Food Items</a>
+        <div class="collapse" id="addfood">
+                <td style="padding-left: 100px;">
+                    <tr>
+                            <td style="padding-top: 10px;width: 200px;text-align: right;">Food Name</td><td><input style="margin-left: 30px;width: 350px;" type="text" class="form-control" required="required" id="foodname" name="foodname"></td>
+                    </tr>
+                    <br>
+                    <tr>
+                            <td style="padding-top: 10px;width: 200px;text-align: right;">Food Category</td><td><input style="margin-left: 30px;width: 350px;" type="text" class="form-control" required="required" id="category" name="category"></td>
+                    </tr>
+                    <br>
+                    <tr>
+                            <td style="padding-top: 10px;width: 200px;text-align: right;">Unit Price</td><td><input style="margin-left: 30px;width: 350px;" type="text" class="form-control" required="required" id="unitprice" name="unitprice"></td>
+                    </tr>
+                    <br>
+                <tr><td rowspan="3" style="padding-left: 300px;"><a class="btn btn-warning" routerLink="#" role="button">Add Food</a></td><td><button type="button" style="margin-left: 20px;" id="hide" data-toggle="collapse" data-target="#addfood" class="btn btn-danger">Cancel</button></td></tr>
+                    <br>
+                    
+        </td></div>
 <tr><td style="padding-left: 100px;">
-        <tr>
-                <td style="padding-top: 10px;width: 200px;text-align: right;">Food Name</td><td><input style="margin-left: 30px;width: 350px;" type="text" class="form-control" required="required" id="foodname" name="foodname"></td>
-        </tr>
-        <br>
-        <tr>
-                <td style="padding-top: 10px;width: 200px;text-align: right;">Food Category</td><td><input style="margin-left: 30px;width: 350px;" type="text" class="form-control" required="required" id="category" name="category"></td>
-        </tr>
-        <br>
-        <tr>
-                <td style="padding-top: 10px;width: 200px;text-align: right;">Unit Price</td><td><input style="margin-left: 30px;width: 350px;" type="text" class="form-control" required="required" id="unitprice" name="unitprice"></td>
-        </tr>
+
         <br>
         <tr>
             <td><a style="margin-left: 350px;" class="btn btn-primary" routerLink="#" role="button">Add Restaurant</a></td>
         </tr>
-    </td><td rowspan="3" style="padding-top: 116px;"><a class="btn btn-warning" routerLink="#" role="button">Add Food</a></td></tr>  
+    </td></tr>
 </tbody>
     </table>
 </div>
 
+            
 </form>
