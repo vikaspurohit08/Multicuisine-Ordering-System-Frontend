@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
 import { SignupaddressComponent } from './signupaddress/signupaddress.component';
-
+import { FormsModule } from '@angular/forms'
 import { RestaurantlistComponent } from './restaurantlist/restaurantlist.component';
 import { FooditemlistComponent } from './fooditemlist/fooditemlist.component';
 import { CartComponent } from './cart/cart.component';
@@ -16,6 +16,7 @@ import { ModifyrestaurantComponent } from './modifyrestaurant/modifyrestaurant.c
 import { ViewordersComponent } from './vieworders/vieworders.component';
 import { ManagecustomersComponent } from './managecustomers/managecustomers.component';
 import { BlockComponent } from './block/block.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -37,7 +38,9 @@ import { BlockComponent } from './block/block.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
